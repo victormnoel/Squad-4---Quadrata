@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil do Candidato</title>
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+
+    <style>
+        h1{
+            color: #525252;
+            font: normal 40px 'Inter';
+            border-bottom: #525252 1px solid;
+        }
+        h2{
+            font: normal 15px arial;
+            color: #525252;
+        }
+        p{
+            color: #525252;
+            font-family:'Source Sans Pro', sans-serif;
+            font-size: 18px;
+        }
+        header{
+            display: flex;
+            background:#83ADDF;
+            margin: -10px -30px;
+            align-items: center;
+        }
+        div#logo img{
+            display: flex;
+            margin: 28px 3px -2px 100px;
+            width: 62%;
+           
+        }
+        section#esquerda img{
+            margin: 5px -10px;
+        }
+        div#interface{
+            margin: 40px 120px;
+        }
+        section#esquerda{
+            display: block;
+            float: left;
+            width: 500px;
+        }
+        aside#direita{
+            display: block;
+            float: right;
+            width: 500px;
+            margin: 90px 1px;
+        }
+        footer#rodape{
+            clear: both;
+            text-align: center;
+            margin: -10px -50px;
+            padding: 10px 0px;
+            background:#83ADDF;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <img src="img/logo.png" alt="">
+        </div>
+    </header>
+    <div id="interface">
+        <section id="esquerda">
+            <h1>Informações do Profissinal</h1></br>
+            <p><strong>Nome: </strong> Hellen Vitoria</p></br>
+            <p><strong>Área: </strong> Desenvolvedora</p></br>
+            <p><strong>Experiência: </strong> 2 Anos</p></br>
+            <p><strong>Tecnologia: </strong> Java</p></br>
+            <p><strong>Tecnologia: </strong> JavaScript</p>
+            <img src="img/foto-bonec (1).png" width="90%" alt="">
+        </section>
+
+        <aside id="direita">
+            <img src="img/foto-fem.jpg" width="30%" alt=""></br>
+            <p><strong>Formação: </strong> Analise e Desenvolvimento de Sistemas</p></br>
+            <p><strong>Status: </strong> Cursando</p></br>
+            <p><strong>Instituição: </strong> Senac</p></br>
+            <p><strong>Resumo: </strong> Sou graduanda em Análise e desenvolvimento de sistemas, no momento estou no 3° período e estudo no turno da noite.
+                 Comecei minha carreira profissional desenvolvendo projetos front-end utilizando as tecnologias HTML, CSS, javascript e react, mas atualmente venho estudando Java e me identificando cada vez mais com a área de back-end.
+                 Procuro uma vaga como desenvolvedora Java, para que possa continuar me desenvolvendo e agregando ao time com os conhecimentos que já trabalhei.</p>
+        </aside>
+    </div>
+
+    <footer id="rodape">
+        <h2>&copy 2022</br>
+            by Squad 4 Senac | Accenture
+        </h2>
+    </footer>
+    
+</body>
+</html>
