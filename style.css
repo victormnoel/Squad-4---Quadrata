@@ -115,6 +115,11 @@ nav .right
     margin-bottom: 1.1rem;
 }
 
+#senha2
+{
+    margin-left: 4px;
+}
+
 #nome
 {
     margin-right: 0.3rem;
@@ -151,6 +156,23 @@ nav .right
     line-height: 19px;
 
     color: #A4A4A4;
+
+    cursor: pointer;
+}
+
+.campo select
+{
+    width: 235px;
+    height: 30px;
+    background: #FFFFFF;
+    border: 1px solid #A4A4A4;
+    border-radius: 8px;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+
+    cursor: pointer;
 }
 
 .campo label 
@@ -160,11 +182,14 @@ nav .right
     line-height: 19px;
 
     color: #A4A4A4;
+
+    cursor: pointer;
 }
 
 .campo input 
 {
     background: #A4A4A4;
+    cursor: pointer;
 }
 
 .termos
@@ -194,11 +219,12 @@ nav .right
     color: #A4A4A4;
 }
 
-.pessoa img
+.pessoa
 {
-    display: flex;
-    justify-content: right;
-    align-items: flex-end;
+    position: relative;
+    bottom: 0px;
+    top: 72px;
+    left: 175px;
 }
 
 .button-submit
