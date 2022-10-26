@@ -16,11 +16,11 @@
         <div class="inputs-nav">
           <div class="input-nav">
             <label for="nome">E-mail ou Telefone:</label>
-            <input type="text" name="nome" id="nome" placeholder="Digite seu email ou telefone" required style="height: 15px; width: 200px;">
+            <input type="text" name="nome" id="login" placeholder="Digite seu email ou telefone" required style="height: 15px; width: 200px;">
           </div>
           <div class="input-nav">
             <label for="nome">Senha:</label>
-            <input type="text" name="nome" id="nome" placeholder="Digite sua senha" required style="height: 15px; width: 200px;">
+            <input type="text" name="nome" id="senha" placeholder="Digite sua senha" required style="height: 15px; width: 200px;">
           </div>
         </div>
         <div class="button-submit1">
@@ -47,9 +47,9 @@
               <input type="email" name="email" id="email" placeholder="E-mail ou telefone" required style="height: 15px; width: 442px;">
             </div>
             <div class="input-box">
-              <input type="senha" name="senha" id="senha" placeholder="Senha" required style="height: 15px; width: 200px;">
+              <input type="senha" name="senha" id="senhaone" placeholder="Senha" required style="height: 15px; width: 200px;">
               <div class="input-box">
-                <input type="senha" name="senha" id="senha2" placeholder="Repita a senha" required style="height: 15px; width: 200px;">
+                <input type="senha" name="senha" id="senhatwo" placeholder="Repita a senha" required style="height: 15px; width: 200px;">
               </div>
             </div>
           <div class="termos">
