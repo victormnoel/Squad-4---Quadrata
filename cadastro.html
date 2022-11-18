@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="cadastro.css">
+    <title>Tela de cadastro</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/logo.png" style="width: 80%;" alt="">
+        </div>
+    </header>
+    <br>
+    <div>
+        <p id="subtitulo">Olá, Usuário! Complete ou atualize o seu perfil com informações adicionais.</p>
+        <br>
+    </div>
+    <br>
+    <form>
+        <fieldset class="agrupamento">
+            <div class="campo">
+                <label for="nome">Nome</label>
+                <input type="text" name="nome" id="nome"  placeholder="Nome" required>
+            </div>
+            <div class="campo">
+                <label for="sobrenome">Sobrenome</label>
+                <input type="text" name="sobrenome" id="sobrenome" placeholder="Sobrenome" required>
+            </div>
+        </fieldset>
+        <br>
+        <div class="campo">
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" placeholder="exemplo@gmail.com" required>
+        </div>
+        <br>
+        <div class="campo">
+            <label>Possui alguma deficiência?</label>
+            <label>
+                <input type="radio" name="opcao_deficiencia" value="sim">sim
+            </label>
+            <label>
+                <input type="radio" name="opcao_deficiencia" value="não">não
+            </label>
+        </div>
+        <br>
+        <fieldset class="agrupamento">
+            <h3>Formação acadêmica</h3>
+            <br>
+            <div class="campo">
+                <label for="curso">Curso</label>
+                <input type="text" name ="curso" id = "curso" placeholder="Inserir" required>
+            </div>
+            <div class="campo">
+                <label for="instituicao">Instituição</label>
+                <input type="text" name ="instituicao" id = "instituicao" placeholder="Inserir" required>
+            </div>
+            <div class="campo">
+                <label>Grau</label>
+                <select id="Grau" required>
+                    <option selected disabled value="">Selecione</option>
+                    <option>Graduação</option>
+                    <option>Pós-graduação</option>
+                    <option>Técnico</option>
+                </select>
+            </div>
+        </fieldset>
+        <br>
+        <fieldset class="agrupamento">
+            <h3>Tecnologias</h3>
+            <br>
+            <div class="campo">
+                <input type="text" name="opcao_tecnologia" id="opcao1" placeholder="Ex: Python">
+                <input type="text" name="opcao_tecnologia" id="opcao2" placeholder="Ex: Java">
+            </div>
+        </fieldset>
+        <br>
+        <fieldset class="agrupamento">
+            <h3>Experiência Profissional</h3>
+            <br>
+            <div class="campo">
+                <label for="funcao_trabalho">Função</label>
+                <input type="text" name="funcao_trabalho" id="funcao_trabalho" placeholder="Inserir">
+            </div>
+            <div class="campo">
+                <label for="empresa">Empresa</label>
+                <input type="text" name="empresa" id="empresa" placeholder="Inserir">
+            </div>
+            <div class="campo"> 
+                <label for="periodo_trabalho">Periodo</label>
+                <input type="text" name= "periodo_trabalho" id = "periodo_trabalho" placeholder="Inserir">
+            </div>
+        </fieldset>
+        <div class="campo">
+            <br>
+            <label>Sobre</label>
+            <textarea name="sobre" id="sobre" rows="10" style="width: 26em;" placeholder="Conte-nos um pouco sobre você."></textarea>
+        </div>
+        <button type="submit" class="botao">Salvar</button>
+    </form>
+</body>
+</html>

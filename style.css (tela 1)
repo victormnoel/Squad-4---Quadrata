@@ -14,7 +14,7 @@ header
     justify-content: center;
     align-items: center;
     text-decoration: none;
-    background-color: #83ADDF;
+    background-color: #83addf;
 }
 
 header img
